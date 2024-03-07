@@ -13,12 +13,11 @@
     <nav class="nav-bar">
       <p class="logo">PORTFOLIO</p>
       <div class="nav-menu">
-        <a href="#">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
       </div>
     </nav>
-    <section class="header-container">
+    <section id="about" class="header-container">
       <div class="header">
         <div class="left-header">
           <h3>I'm</h3>
@@ -29,7 +28,7 @@
       </div>
     </section>
 
-    <section class="project-section">
+    <section id="projects" class="project-section">
       <div class="project-section-title">
         <div>
           <p>Project</p>
@@ -39,23 +38,69 @@
       </div>
       <div class="project-contents">
         <div class="project-card">
-          <img src="public/todo-app.png" alt="">
+          <div>
+            <img src="public/todo-app.png" alt="">
+            <div class="project-links">
+              <a href="https://todoappclient-vgnm.onrender.com/" class="live-btn" target="_blank">
+                Live
+              </a>
+              <a href="https://github.com/liju-ls/Todo-App-MernStack" class="github-btn" target="_blank">
+                Github
+              </a>
+            </div>
+          </div>
           <div>
             <h2>TODO App</h2>
             <p>Developed a Todo Application to enhance skills in full-stack web development. Implemented user authentication with sign up, log in. Utilized JSON Web Tokens (JWT) for authorization processes. Created CRUD operations for seamless task management (Create, Read, Update, Delete). React and React-Router-Dom for frontend development Node.js and Express.js for backend server development.</p>
+            <button class="techstack">React</button>
+            <button class="techstack">Bootstrap</button>
+            <button class="techstack">Express</button>
+            <button class="techstack">MongoDB</button>
           </div>
-          
         </div>
 
         <div class="project-card">
-          <img src="public/todo-app.png" alt="">
-          <p>Developed a Todo Application to enhance skills in full-stack web development. Implemented user authentication with sign up, log in. Utilized JSON Web Tokens (JWT) for authorization processes. Created CRUD operations for seamless task management (Create, Read, Update, Delete). React and React-Router-Dom for frontend development Node.js and Express.js for backend server development.</p>
+          <div>
+            <img src="public/fake-api.png" alt="">
+            <div class="project-links">
+              <a href="https://fakedataapi.onrender.com/" class="live-btn" target="_blank">
+                Live
+              </a>
+              <a href="https://github.com/liju-ls/fake-api" class="github-btn" target="_blank">
+                Github
+              </a>
+            </div>
+          </div>
+          <div>Fake Data API</h2>
+            <p>Developed a Node.js Express application to serve fake data for frontend development. Created endpoints to retrieve posts and users in JSON format. Implemented functionality to fetch 10 posts and 10 users. Designed routes to retrieve a single post or user. Node.js and Express.js for server-side development.</p>
+            <button class="techstack">HTML</button>
+            <button class="techstack">CSS</button>
+            <button class="techstack">Express</button>
+            <button class="techstack">MongoDB</button>
+          </div>
         </div>
 
         <div class="project-card">
-          <img src="public/todo-app.png" alt="">
-          <p>Developed a Todo Application to enhance skills in full-stack web development. Implemented user authentication with sign up, log in. Utilized JSON Web Tokens (JWT) for authorization processes. Created CRUD operations for seamless task management (Create, Read, Update, Delete). React and React-Router-Dom for frontend development Node.js and Express.js for backend server development.</p>
+          <div>
+            <img src="public/color-palette-generator.png" alt="">
+            <div class="project-links">
+              <a href="http://lsliju.me/color-palate-generator/" class="live-btn" target="_blank">
+                Live
+              </a>
+              <a href="https://github.com/liju-ls/color-palate-generator" class="github-btn" target="_blank">
+                Github
+              </a>
+            </div>
+          </div>
+          <div>
+            <h2>Color Palette Generator</h2>
+            <p>Developed a Color Palette Generator using HTML, CSS, and JavaScript. Implemented a user interface allowing users to control the number of colors generated. Dynamically generate color palettes based on user input.</p>
+            <button class="techstack">HTML</button>
+            <button class="techstack">CSS</button>
+            <button class="techstack">JavaScript</button>
+          </div>
         </div>
+        
         
       </div>
     </section>
