@@ -1,15 +1,21 @@
+/* main */
+
 html {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 body {
   margin: 0;
   box-sizing: border-box;
-  height: 100vh;
 }
 
+/*************************/
+
+/* nav bar */
+
 .nav-bar {
+  height: 4rem;
   display: flex;
   border-bottom: 1px solid rgba(0, 0, 0, 0.105);
 }
@@ -33,4 +39,37 @@ body {
 
 .nav-menu button:hover {
   color: rgb(34, 34, 34);
+}
+
+/**************************/
+
+/* header section */
+
+.header-container {
+  height: calc(100vh - 4rem);
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  height: 70%;
+}
+
+.header h3 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 5rem;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
 }
