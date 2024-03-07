@@ -1,8 +1,9 @@
 /* main */
 
 html {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "roboto";
+  background-color: #293241;
+  color: rgb(171, 174, 192);
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 .nav-bar {
   height: 4rem;
   display: flex;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.105);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.047);
 }
 
 .logo {
@@ -33,7 +34,7 @@ body {
 }
 
 .nav-menu a {
-  color: black;
+  color: rgb(224, 224, 224);
   text-decoration: none;
 }
 
@@ -73,6 +74,8 @@ body {
   width: 20rem;
   height: 20rem;
 }
+
+/********************/
 
 /* Project section */
 
