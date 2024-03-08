@@ -84,6 +84,19 @@ body {
   padding-block: 2rem;
 }
 
+.resume-down-btn {
+  background-color: rgba(74, 90, 102, 0.367);
+  color: white;
+  padding: 0.5rem 2rem;
+  border: 0.1px solid rgba(255, 255, 255, 0.21);
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.resume-down-btn:hover {
+  background-color: rgba(78, 83, 86, 0.367);
+}
+
 /********************/
 
 /* Project section */
