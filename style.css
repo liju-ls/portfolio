@@ -80,6 +80,10 @@ body {
   height: 20rem;
 }
 
+.contact {
+  padding-block: 2rem;
+}
+
 /********************/
 
 /* Project section */
@@ -156,10 +160,6 @@ body {
 .github-btn {
   padding: 0.5rem;
   margin-right: 0.5rem;
-}
-
-.live-btn,
-.github-btn {
   columns: white;
   text-decoration: none;
 }
